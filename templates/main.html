@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Tobias Galler | Web Developer</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <!-- flavicon and touch-icon -->
+    <link rel="icon" type="image/png" href="assets/img/flavicon.png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</head>
+<body onload="myFunction()" id="body">
+<div id="loader"></div>
+
+<div class="container-fluid" style="display:none;" id="myDiv">
+    <article>
+         <!-- First Row -->
+        <div class="row">
+            <div class="col-8" id="first">
+                <header>
+                    <h1>
+                        <a href="http://www.tobiasgaller.com" title="tobiasgaller.com">
+                            TOBIAS GALLER
+                        </a>
+                    </h1>
+                </header>
+                <h2>Hi,<br/>my name is Tobias and I'm a full motivated Web developer,<br/> with the eager to learn.</h2>
+                <p class="lead">I like to work in the web industry, I start coding about <span id="start2"></span> months ago.</p>
+                <div >
+                    <p id="time" style="display: none;"></p>
+                    <h4><span id="motivation"></span><span> %</span> Motivation</h4>
+                    <h4><span id="start"></span> Months of coding</h4>
+                    <h4><span id="mission"></span> Mission <span class="light">(Keep on coding!)</span></h4>
+                </div>
+            </div>
+            <div class="col-4" id="profil">
+            </div>
+        </div>
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col" id="strengths">
+                <h2>My strengths</h2>
+                <ul class="plus-bullets_dark">
+                    <li><span class="strong">Python</span> - knowledge of object oriented design and programming</li>
+                    <li>understanding of <span class="strong">software development tools</span>, such as PyCharm, Git, Gitlab, profiling tools for Python applications</li>
+                    <li>using <span class="strong">HTML/CSS</span> (modern properties, layout, responsive design, frameworks (i.e. Bootstrap))</li>
+                    <li>ability to dive in and learn new things to <span class="strong">find solutions for technical problems</span></li>
+                    <li>understanding of developing for the web and a <span class="strong">careful eye for design</span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Third Row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="skills">
+                <h2>My skills</h2>
+                <ul class="plus-bullets">
+                    <li><span class="strong">HTML5</span> (modern markup),</li>
+                    <li><span class="strong">CSS3</span> (modern properties, layout, SVG, animations)
+                    </li>
+                    <li><span class="strong">JavaScript</span> (a programming language used to create interactive
+                        effects),
+                    </li>
+                    <li><span class="strong">jQuery</span> (fast, small, and feature-rich JavaScript library),</li>
+                    <li><span class="strong">graphic tools</span> (i.e. Gimp & Adobe Photoshop).
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="project1">
+                <p class="latest">Latest projects</p>
+                <h2>bouillon.at | Online-Shop</h2>
+                <p>Built for Browser with responsive Design / HTML, CSS, JavaScript, Python.</p>
+                <div>
+                    <a href="https://www.bouillon.at" target="_blank"><img class="latest_img" src="../assets/img/bouillon_responsive.png?v=2" alt="Portfolio 1"/></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth row -->
+        <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="project2">
+                <p class="latest">Latest projects</p>
+                <h2>bmail-online | Message Webapp</h2>
+                <p>Built for Browser with responsive Design / HTML, CSS, Python.</p>
+               <div>
+                    <a href="http://www.bmail-online.appspot.com" target="_blank"><img class="latest_img" src="../assets/img/bmail_responsive.png?v=2" alt="Portfolio 2"/></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="hire">
+                <h2>Want to hire me?</h2>
+                <p>Please feel free to contact me by any communication channel:</p>
+                <ul class="contacts">
+                    <li class="email">
+                        <a href="mailto:tobiasgaller@gmail.com">
+                            <span class="email">tobiasgaller@gmail.com</span>
+                        </a>
+                    </li>
+                    <li class="whatsapp">
+                        <a href="https://wa.me/436769666548">
+                            <span class="whatsapp">WhatsApp Message</span>
+                        </a>
+                    </li>
+                    <li class="phone">
+                        <a href="tel:00436769666548">
+                            <span class="phone">+43 676 96 66 548</span>
+                        </a>
+                    </li>
+                    <li class="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100005556285628" target="_blank">
+                            <span class="facebook">/Tobias Galler</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- How made -->
+        <div class="row" id="how_made">
+            <div class="col" id="blue">
+             <h2 class="smaller">How was this site made?</h2>
+              <p class="first">No website template has been used. I have coded it with modern technologies:</p>
+              <ul class="plus-bullets_dark">
+                <li>HTML5, CSS3, jQuery, preloader)</li>
+                <li>by using responsive design and Bootstrap framework,</li>
+                <li>logo, portfolio and contact icons are used in SVG format,</li>
+                <li>calculation for the Months of coding are calculated automatically,</li>
+                <li>site was checked with <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fwww.tobias-galler.appspot.com" target="_blank">PageSpeed Insights,</a></li>
+                <li>cross-browser (i.e. Chrome, Firefox, Safari, Internet Explorer 9+) and cross-platform (Android, iOS iPhone/iPad) compatibility was tested as well.</li>
+              </ul>
+              <p class="github">Feel free to see the whole project code at the <a href="/" target="_blank">GitHub</a> site.</p>
+            </div>
+        </div>
+      </article>
+     <!-- Footer -->
+      <footer>
+        <div class="row" id="fo_d_blue">
+          <div class="col-sm">
+              <address class="text-center">Tobias Galler<br/>Erzherzog-Karl-Straße 139/1/15<br/>1220 Wien, Austria</address>
+              <p class="text-center">
+                <small>Copyright & Design 2018 by Tobias Galler</small>
+              </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+ <!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/*
+blue_light= #8FC1E3
+blue_mid= #5085A5
+blue_dark= #31708E
+light = #F7F9FB
+*/
+#body{
+background-color: #5085A5;
+color: white;
+}
+.container-fluid{
+background-color: #5085A5;
+color: white;
+font-family: 'Titillium Web', sans-serif;
+}
+/*main*/
+.col{
+ padding: 2% 10%;
+}
+.strong{
+font-weight: bold;
+}
+h2{
+margin: 2% 0;
+}
+.latest_img {
+  max-width: 100%;
+  margin-bottom: 30px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+/*first-row*/
+header h1 a{
+  color: #8FC1E3;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+#first{
+margin: 5% 0 5% 0;
+}
+#profil{
+  background-image: url(../img/profil.jpg);
+  background-size: cover;
+  background-position-x: 60%;
+  background-position-y: 40%;
+  background-size: cover;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.light{
+font-size: 14px;
+}
+/*second-row*/
+#strengths{
+background-color: #8FC1E3;
+padding: 3% 0px 3% 28px;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.plus-bullets_dark li{
+ list-style-image: url("../img/add_dark.svg");
+ font-weight: normal;
+ margin-bottom: 2%;
+}
+/*third-row*/
+#project1{
+background-color: #31708E;
+padding: 2%;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#skills{
+background-color: #5085A5;
+padding: 2%;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.plus-bullets li{
+ list-style-image: url("../img/add.svg");
+ font-weight: normal;
+ margin-bottom: 2%;
+}
+
+/*fourth-row*/
+#project2{
+background-color: #31708E;
+padding: 2%;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#hire{
+background-color: #5085A5;
+padding: 2%;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.contacts li{
+padding: 3.5% 0;
+}
+.contacts .email{
+list-style-image: url("../img/001-at.svg");
+color: #F7F9FB;
+}
+.contacts .whatsapp{
+list-style-image: url("../img/whatsapp.svg");
+color: #F7F9FB;
+}
+.contacts .phone{
+list-style-image: url("../img/003-telephone.svg");
+color: #F7F9FB;
+}
+.contacts .facebook{
+list-style-image: url("../img/004-facebook.svg");
+color: #F7F9FB;
+}
+
+/*how made*/
+#how_made{
+background-color: #8FC1E3;
+padding: 2% 0;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+/*footer-row*/
+fo_d_blue{
+background-color: #31708E;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+/* loader */
+#loader {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 180px;
+  height: 180px;
+  padding: 5%;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3 shadow: 0px 15px 15px white;
+  border-radius: 50%;
+  border-top: 16px solid #31708E;
+  width: 120px;
+  height: 120px;
+
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.container {
+  position: relative;
+  -webkit-animation-name: container;
+  -webkit-animation-duration: 1s;
+  animation-name: container;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes container {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes container {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+}
