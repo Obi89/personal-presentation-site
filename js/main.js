@@ -1,7 +1,7 @@
 
 
 function myFunction() {
-    myVar = setTimeout(showPage, 1500);
+    myVar = setTimeout(showPage, 1200);
 
 }
 
@@ -18,9 +18,9 @@ function showPage() {
                  var date1 = new Date("9/29/2017");
                  var date2 = new Date();
                  var timeDiff = Math.abs(date2.getTime() - date1.getTime());
-                 var diffMonths = Math.ceil(timeDiff / (1000 * 3600 * 24 * 30));
-                 console.log(diffMonths);
-                 document.getElementById("start2").innerHTML = diffMonths;
+                 var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 30 * 12));
+                 console.log(diffYears);
+                 document.getElementById("start2").innerHTML = diffYears;
                  document.getElementById("mission").innerHTML = '1';
             });
 
@@ -45,13 +45,13 @@ function showPage() {
                 function doScaledTimeout(i) {
                       setTimeout(function() {
                         document.getElementById("start").innerHTML = (i);
-                      }, i * 350);
+                      }, i * 1050);
                     }
                  var date1 = new Date("9/29/2017");
                  var date2 = new Date();
                  var timeDiff = Math.abs(date2.getTime() - date1.getTime());
-                 var diffMonths = Math.ceil(timeDiff / (1000 * 3600 * 24 * 30));
-                 for (var i = 0; i <= diffMonths; ++i)
+                 var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 30 * 12));
+                 for (var i = 0; i <= diffYears; ++i)
                   doScaledTimeout(i);
            });
  });
